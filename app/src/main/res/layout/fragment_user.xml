@@ -53,6 +53,22 @@
                     android:enabled="false"
                     android:hint="Email" />
 
+                <ImageView
+                    android:id="@+id/img_belum_verifikasi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-24dp"
+                    android:layout_marginTop="26dp"
+                    android:src="@drawable/ic_belum_verifikasi" />
+
+                <ImageView
+                    android:id="@+id/img_sudah_verifikasi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-24dp"
+                    android:layout_marginTop="26dp"
+                    android:src="@drawable/ic_verifikasi" />
+
             </LinearLayout>
 
             <Button
@@ -63,6 +79,32 @@
                 android:layout_marginTop="20dp"
                 android:backgroundTint="@color/black"
                 android:text="save" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_verifikasi"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#4CAF50"
+                    android:text="Verifikasi Email" />
+
+                <Button
+                    android:id="@+id/btn_update_email"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/browser_actions_divider_color"
+                    android:text="Update Email" />
+
+            </LinearLayout>
 
 
         </LinearLayout>

@@ -58,6 +58,14 @@ class UserFragment : Fragment() {
             }
             binding.edtEmail.setText(user?.email)
             binding.edtName.setText(user?.displayName)
+
+            if (user.isEmailVerified){
+                binding.imgSudahVerifikasi.visibility = View.VISIBLE
+                binding.imgBelumVerifikasi.visibility = View.GONE
+            } else{
+                binding.imgSudahVerifikasi.visibility = View.GONE
+                binding.imgBelumVerifikasi.visibility = View.VISIBLE
+            }
         }
 
 
@@ -91,6 +99,16 @@ class UserFragment : Fragment() {
                         }
                     }
                 }
+        }
+
+        binding.btnVerifikasi.setOnClickListener {
+            user?.sendEmailVerification()?.addOnCompleteListener {
+                if (it.isSuccessful) {
+                    Toast.makeText(activity, "Email Verifikasi berhasil dikirim", Toast.LENGTH_SHORT).show()
+                } else {
+                    Toast.makeText(activity, "${it.exception?.message}", Toast.LENGTH_SHORT).show()
+                }
+            }
         }
 
     }

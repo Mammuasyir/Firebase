@@ -3,13 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Humam/AndroidStudioProjects/FireBase/app/src/main/res/drawable-v24/ic_belum_verifikasi.xml" value="0.1" />
+        <entry key="..\:/Users/Humam/AndroidStudioProjects/FireBase/app/src/main/res/drawable-v24/ic_verifikasi.xml" value="0.1" />
         <entry key="..\:/Users/Humam/AndroidStudioProjects/FireBase/app/src/main/res/drawable/ic_user.xml" value="0.1" />
         <entry key="..\:/Users/Humam/AndroidStudioProjects/FireBase/app/src/main/res/drawable/shape.xml" value="0.1" />
         <entry key="..\:/Users/Humam/AndroidStudioProjects/FireBase/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Humam/AndroidStudioProjects/FireBase/app/src/main/res/layout/activity_navigation.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Humam/AndroidStudioProjects/FireBase/app/src/main/res/layout/activity_register.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/Humam/AndroidStudioProjects/FireBase/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Humam/AndroidStudioProjects/FireBase/app/src/main/res/layout/fragment_user.xml" value="0.14122533748701974" />
+        <entry key="..\:/Users/Humam/AndroidStudioProjects/FireBase/app/src/main/res/layout/fragment_user.xml" value="0.1259259259259259" />
         <entry key="..\:/Users/Humam/AndroidStudioProjects/FireBase/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
       </map>
     </option>
