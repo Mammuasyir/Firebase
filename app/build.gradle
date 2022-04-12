@@ -2,6 +2,7 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'com.google.gms.google-services'
+    id 'kotlin-android-extensions'
 }
 
 android {
@@ -58,4 +59,7 @@ dependencies {
     implementation "com.airbnb.android:lottie:$lottieVersion"
 
     implementation 'com.squareup.picasso:picasso:2.71828'
+
+    //    QR Code
+    implementation 'com.budiyev.android:code-scanner:2.1.0'
 }

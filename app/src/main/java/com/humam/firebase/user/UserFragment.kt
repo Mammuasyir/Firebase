@@ -17,6 +17,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.UserProfileChangeRequest
 import com.google.firebase.storage.FirebaseStorage
 import com.humam.firebase.R
+import com.humam.firebase.ScannerActivity
 import com.humam.firebase.UpdateEmailActivity
 import com.humam.firebase.UpdatePasswordActivity
 import com.humam.firebase.databinding.FragmentUserBinding
@@ -120,6 +121,11 @@ class UserFragment : Fragment() {
 
         binding.btnUpdateEmail.setOnClickListener {
             val i = Intent(context, UpdateEmailActivity::class.java)
+            startActivity(i)
+        }
+
+        binding.btnBarcode.setOnClickListener {
+            val i = Intent(context, ScannerActivity::class.java)
             startActivity(i)
         }
 
