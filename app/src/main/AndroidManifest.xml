@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FireBase">
         <activity
+            android:name=".UpdateEmailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdatePasswordActivity"
+            android:exported="false" />
+        <activity
             android:name=".ForgotPasswordActivity"
             android:exported="false" />
         <activity

@@ -17,6 +17,8 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.UserProfileChangeRequest
 import com.google.firebase.storage.FirebaseStorage
 import com.humam.firebase.R
+import com.humam.firebase.UpdateEmailActivity
+import com.humam.firebase.UpdatePasswordActivity
 import com.humam.firebase.databinding.FragmentUserBinding
 import com.squareup.picasso.Picasso
 import java.io.ByteArrayOutputStream
@@ -109,6 +111,16 @@ class UserFragment : Fragment() {
                     Toast.makeText(activity, "${it.exception?.message}", Toast.LENGTH_SHORT).show()
                 }
             }
+        }
+
+        binding.btnChangePassword.setOnClickListener {
+            val i= Intent(context, UpdatePasswordActivity::class.java)
+            startActivity(i)
+        }
+
+        binding.btnUpdateEmail.setOnClickListener {
+            val i = Intent(context, UpdateEmailActivity::class.java)
+            startActivity(i)
         }
 
     }
