@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/Users/Humam/AndroidStudioProjects/FireBase/app/src/main/res/drawable-v24/ic_belum_verifikasi.xml" value="0.1" />
         <entry key="..\:/Users/Humam/AndroidStudioProjects/FireBase/app/src/main/res/drawable-v24/ic_verifikasi.xml" value="0.1" />
+        <entry key="..\:/Users/Humam/AndroidStudioProjects/FireBase/app/src/main/res/drawable/ic_baseline_chat_bubble_24.xml" value="0.1" />
+        <entry key="..\:/Users/Humam/AndroidStudioProjects/FireBase/app/src/main/res/drawable/ic_search_24.xml" value="0.1" />
         <entry key="..\:/Users/Humam/AndroidStudioProjects/FireBase/app/src/main/res/drawable/ic_user.xml" value="0.1" />
         <entry key="..\:/Users/Humam/AndroidStudioProjects/FireBase/app/src/main/res/drawable/shape.xml" value="0.1" />
         <entry key="..\:/Users/Humam/AndroidStudioProjects/FireBase/app/src/main/res/layout/activity_forgot_password.xml" value="0.13697916666666668" />
@@ -16,6 +18,8 @@
         <entry key="..\:/Users/Humam/AndroidStudioProjects/FireBase/app/src/main/res/layout/activity_update_password.xml" value="0.25" />
         <entry key="..\:/Users/Humam/AndroidStudioProjects/FireBase/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Humam/AndroidStudioProjects/FireBase/app/src/main/res/layout/fragment_user.xml" value="0.22" />
+        <entry key="..\:/Users/Humam/AndroidStudioProjects/FireBase/app/src/main/res/layout/item_slider.xml" value="0.14583333333333334" />
+        <entry key="..\:/Users/Humam/AndroidStudioProjects/FireBase/app/src/main/res/layout/items_produk.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Humam/AndroidStudioProjects/FireBase/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
       </map>
     </option>
